@@ -15,6 +15,7 @@
 		D1DB39F520E3CF820063B2C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB39F420E3CF820063B2C2 /* main.m */; };
 		D1DB39FF20E3CF820063B2C2 /* ModuleDesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB39FE20E3CF820063B2C2 /* ModuleDesignTests.m */; };
 		D1DB3A0A20E3CF820063B2C2 /* ModuleDesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB3A0920E3CF820063B2C2 /* ModuleDesignUITests.m */; };
+		D1DB3A1920E3D0280063B2C2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB3A1820E3D0280063B2C2 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D1DB3A0520E3CF820063B2C2 /* ModuleDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DB3A0920E3CF820063B2C2 /* ModuleDesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleDesignUITests.m; sourceTree = "<group>"; };
 		D1DB3A0B20E3CF820063B2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DB3A1720E3D0280063B2C2 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D1DB3A1820E3D0280063B2C2 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				D1DB39E520E3CF820063B2C2 /* AppDelegate.h */,
 				D1DB39E620E3CF820063B2C2 /* AppDelegate.m */,
+				D1DB3A1720E3D0280063B2C2 /* TableViewController.h */,
+				D1DB3A1820E3D0280063B2C2 /* TableViewController.m */,
 				D1DB39E820E3CF820063B2C2 /* ViewController.h */,
 				D1DB39E920E3CF820063B2C2 /* ViewController.m */,
 				D1DB39EB20E3CF820063B2C2 /* Main.storyboard */,
@@ -268,6 +273,7 @@
 				D1DB39EA20E3CF820063B2C2 /* ViewController.m in Sources */,
 				D1DB39F520E3CF820063B2C2 /* main.m in Sources */,
 				D1DB39E720E3CF820063B2C2 /* AppDelegate.m in Sources */,
+				D1DB3A1920E3D0280063B2C2 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
