@@ -1,0 +1,20 @@
+PODS:
+  - CTMediator (18)
+  - JLRoutes (2.1)
+
+DEPENDENCIES:
+  - CTMediator
+  - JLRoutes (~> 2.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - JLRoutes
+
+SPEC CHECKSUMS:
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+
+PODFILE CHECKSUM: 793053ac1dec55d6a00389eebc594a62ddca425f
+
+COCOAPODS: 1.5.0

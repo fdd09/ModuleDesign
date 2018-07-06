@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1AF0B9F20E7D7FC002760E6 /* NFirstViewConrroller.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF0B9E20E7D7FC002760E6 /* NFirstViewConrroller.m */; };
+		D1AF0BA220E7D805002760E6 /* NsecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF0BA120E7D805002760E6 /* NsecondViewController.m */; };
+		D1AF0BA620E7DB87002760E6 /* NormalMeditor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF0BA520E7DB87002760E6 /* NormalMeditor.m */; };
 		D1DB39E720E3CF820063B2C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB39E620E3CF820063B2C2 /* AppDelegate.m */; };
 		D1DB39EA20E3CF820063B2C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB39E920E3CF820063B2C2 /* ViewController.m */; };
 		D1DB39ED20E3CF820063B2C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DB39EB20E3CF820063B2C2 /* Main.storyboard */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1AF0B9D20E7D7FC002760E6 /* NFirstViewConrroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFirstViewConrroller.h; sourceTree = "<group>"; };
+		D1AF0B9E20E7D7FC002760E6 /* NFirstViewConrroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFirstViewConrroller.m; sourceTree = "<group>"; };
+		D1AF0BA020E7D805002760E6 /* NsecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NsecondViewController.h; sourceTree = "<group>"; };
+		D1AF0BA120E7D805002760E6 /* NsecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NsecondViewController.m; sourceTree = "<group>"; };
+		D1AF0BA420E7DB87002760E6 /* NormalMeditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalMeditor.h; sourceTree = "<group>"; };
+		D1AF0BA520E7DB87002760E6 /* NormalMeditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalMeditor.m; sourceTree = "<group>"; };
 		D1DB39E220E3CF820063B2C2 /* ModuleDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DB39E520E3CF820063B2C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1DB39E620E3CF820063B2C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +90,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1AF0B9620E7D799002760E6 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF0BA320E7DB47002760E6 /* Meditor */,
+				D1AF0B9D20E7D7FC002760E6 /* NFirstViewConrroller.h */,
+				D1AF0B9E20E7D7FC002760E6 /* NFirstViewConrroller.m */,
+				D1AF0BA020E7D805002760E6 /* NsecondViewController.h */,
+				D1AF0BA120E7D805002760E6 /* NsecondViewController.m */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		D1AF0B9720E7D799002760E6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D1AF0B9820E7D79A002760E6 /* Meditor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Meditor;
+			sourceTree = "<group>";
+		};
+		D1AF0B9920E7D7A1002760E6 /* JLRouter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLRouter;
+			sourceTree = "<group>";
+		};
+		D1AF0BA320E7DB47002760E6 /* Meditor */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF0BA420E7DB87002760E6 /* NormalMeditor.h */,
+				D1AF0BA520E7DB87002760E6 /* NormalMeditor.m */,
+			);
+			path = Meditor;
+			sourceTree = "<group>";
+		};
 		D1DB39D920E3CF820063B2C2 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +155,10 @@
 		D1DB39E420E3CF820063B2C2 /* ModuleDesign */ = {
 			isa = PBXGroup;
 			children = (
+				D1AF0B9920E7D7A1002760E6 /* JLRouter */,
+				D1AF0B9820E7D79A002760E6 /* Meditor */,
+				D1AF0B9620E7D799002760E6 /* Normal */,
+				D1AF0B9720E7D799002760E6 /* Protocol */,
 				D1DB39E520E3CF820063B2C2 /* AppDelegate.h */,
 				D1DB39E620E3CF820063B2C2 /* AppDelegate.m */,
 				D1DB3A1720E3D0280063B2C2 /* TableViewController.h */,
@@ -271,8 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1DB39EA20E3CF820063B2C2 /* ViewController.m in Sources */,
+				D1AF0BA620E7DB87002760E6 /* NormalMeditor.m in Sources */,
 				D1DB39F520E3CF820063B2C2 /* main.m in Sources */,
 				D1DB39E720E3CF820063B2C2 /* AppDelegate.m in Sources */,
+				D1AF0BA220E7D805002760E6 /* NsecondViewController.m in Sources */,
+				D1AF0B9F20E7D7FC002760E6 /* NFirstViewConrroller.m in Sources */,
 				D1DB3A1920E3D0280063B2C2 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
